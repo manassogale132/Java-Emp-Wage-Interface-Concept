@@ -12,6 +12,5 @@ public class Main {
 		
 		empwageinterface company1=new companies();
         company1.comp1();
-
 }
 }
