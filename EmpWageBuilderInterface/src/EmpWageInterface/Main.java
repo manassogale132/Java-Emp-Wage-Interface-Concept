@@ -9,7 +9,7 @@ public class Main {
 		
 		System.out.println("-Employee Wage Builder-");
 		
-		//Taking input for user.
+		//Taking input from user.
 		//Making separate object for each company i.e(company 1,company 2,company 3) using interface.
 		
         empwageinterface company1=new companies();
