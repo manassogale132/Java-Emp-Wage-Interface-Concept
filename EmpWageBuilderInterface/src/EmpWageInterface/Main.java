@@ -8,7 +8,7 @@ public class Main {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("-Employee Wage Builder-");
 		
-		//Making separate object for each company.
+		
 		
 		empwageinterface company1=new companies();
         company1.comp1();
