@@ -12,6 +12,7 @@ public class companies implements empwageinterface {
 		for(int j=0;j<=4;j++) {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("-----------------------------------------------------------------");
+		System.out.println("       ");
 		System.out.println("-:Enter a Company name:-");
 		String comp1=scan.nextLine();
 		System.out.println("1-Enter Full Wage");
@@ -20,6 +21,8 @@ public class companies implements empwageinterface {
 		int hwage=scan.nextInt();
 		System.out.println("3-Enter No Wage");
 	    int nowage=scan.nextInt();
+	    System.out.println("4-Enter Number of Working Days");
+	    int wdays=scan.nextInt();
 	    
 	    int sum=0;
 	    
@@ -30,7 +33,7 @@ public class companies implements empwageinterface {
 	    System.out.println("Hwage="+hwage+"     "+"(Partime)");        
 	    System.out.println("NOwage="+nowage+"     "+"(Absent)");  
 	    System.out.println("         ");
-	    System.out.println("Working Days="+20);
+	    System.out.println("Working Days="+wdays);
 	    System.out.println("         ");
 	    System.out.println("-----------------------------------------------------------------");
 
@@ -38,7 +41,7 @@ public class companies implements empwageinterface {
         System.out.println("Day No:"+"     "+"Wage"+"     "+"TotalWage");
         System.out.println("         ");
         
-        for(int i=0;i<=20;i++) {
+        for(int i=0;i<=wdays;i++) {
         Random rand = new Random();
         int input = rand.nextInt(3);
         
@@ -69,6 +72,13 @@ public class companies implements empwageinterface {
 	}
 }
 }
+
+		
+	
+	
+	
+	
+
 
 		
 	
