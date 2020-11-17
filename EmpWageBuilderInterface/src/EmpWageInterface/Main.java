@@ -12,12 +12,6 @@ public class Main {
 		
 		empwageinterface company1=new companies();
         company1.comp1();
-        
-        empwageinterface company2=new companies();
-        company2.comp2();
-
-        empwageinterface company3=new companies();
-        company3.comp3();
 
 }
 }
